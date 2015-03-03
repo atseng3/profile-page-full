@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="264px" height="264px" viewBox="0 0 264 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval 7</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
-            <feGaussianBlur stdDeviation="1" in="SourceGraphic" result="blur"></feGaussianBlur>
-        </filter>
-    </defs>
-    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <circle id="Oval-7" stroke="#3E4478" stroke-width="8" filter="url(#filter-1)" sketch:type="MSShapeGroup" cx="132" cy="132" r="125"></circle>
-        <path d="M147.659294,114.201287 L183.092755,114.201287 L183.092755,102.000485 L137.562206,102.000485 L137.562206,108.609253 L137.562206,160.971029 L147.659294,160.971029 L147.659294,114.201287 Z M124.097282,114.727773 C104.847365,118.637369 90.1957794,137.833923 90.0019461,161 L80.0013172,161 C80.0004396,160.858205 80,160.71629 80,160.574257 C80,128.224588 102.802865,102 130.931624,102 C130.954419,102 130.977211,102.000017 131,102.000052 L131,102.000048 L131,102.006515 L131.06071,102 L134.014995,102 L134.014995,161 L124.097282,161 L124.097282,114.727773 Z" id="Oval-6" fill="#3E4478" sketch:type="MSShapeGroup"></path>
-    </g>
-</svg>
+<svg width="264" height="264" viewBox="0 0 264 264" xmlns="http://www.w3.org/2000/svg"><title>Oval 7</title><desc>Created with Sketch.</desc><defs><filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="a"><feGaussianBlur stdDeviation="1" in="SourceGraphic" result="blur"/></filter></defs><g fill="none" fill-rule="evenodd"><circle stroke="#3E4478" stroke-width="8" filter="url(#a)" cx="132" cy="132" r="125"/><path d="M147.66 114.2h35.433V102h-45.53v58.97h10.096V114.2zm-23.563.528c-19.25 3.91-33.9 23.106-34.095 46.272h-10c-.002-.142-.002-.284-.002-.426C80 128.224 102.803 102 130.932 102H131v.007l.06-.007h2.955v59h-9.918v-46.272z" fill="#3E4478"/></g></svg>

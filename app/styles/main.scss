@@ -110,6 +110,9 @@ aside {
 	background: #7AB3B5;
 	margin-bottom: 50px;
 	line-height: 100px;
+	&:hover {
+		color: rgba(200,78,75, 1);
+	}
 }
 #nav-brand:before {
 	content: "\e60f";
@@ -291,17 +294,42 @@ article#projects {
 
 // media query
 @media only screen and (max-width : 480px) {
+	#desc p {
+		font-size: 25px;
+		#learn-more {
+			font-size: 15px;
+			width: 150px;
+			height: 20px;
+			line-height: 20px;
+			margin-top: 40px;
+		}
+	}
 	.header-mobile-show {
 		display: block;
 	}
 	.header-mobile-hide {
 		display: none;
 	}
-	.mobile-hide {
-		display: none;
+	#mobile-nav-mask.mobile-hide {
+		width: 0;
+		height: 0;
+		opacity: 0;
+		transition: width 1s, opacity 1s; 
+		overflow: hidden;
+		#global-nav {
+			width: 0;
+			transition: width 1s;
+		}
 	}
-	.mobile-show {
-		display: block;
+	#mobile-nav-mask.mobile-show {
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		transition: width 1s, opacity 1s;
+		#global-nav {
+			width: 250px;
+			transition: width 1s;
+		}
 	}
 	#mobile-header.header-mobile-show {
 		z-index: 100;
@@ -309,6 +337,8 @@ article#projects {
 	}
 	#mobile-nav-mask {
 		width: 100%;
+		display: inline-block;
+		clear: both;
 		#global-nav {
 			width: 250px;
 			height: inherit;
