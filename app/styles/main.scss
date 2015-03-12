@@ -85,7 +85,7 @@ aside {
 	#mobile-header__brand {
 		&:after {
 			@extend %icon;
-			content: "\e60f";
+			content: "\e60d";
 			font-size: 40px;
 			line-height: 100px;
 			color: #FFF;
@@ -115,7 +115,7 @@ aside {
 	}
 }
 #nav-brand:before {
-	content: "\e60f";
+	content: "\e60d";
 	line-height: 80px;
 }
 .nav-items {
@@ -227,6 +227,10 @@ article#profile {
 		color: #FFF;
 		font-size: 20px;
 		margin: 50px auto;
+		.profile-subtitle {
+			font-weight: 500;
+			color: #C89F4B;
+		}
 	}
 }
 
@@ -249,6 +253,15 @@ article#projects {
 			position: relative;
 			color: #FFF;
 			vertical-align: top;
+			transition: all 0.2s ease;
+		}
+		.container__items:hover {
+			background: #7AB3B5;
+			color: rgba(0,0,0,0.8);
+			border: 1px solid #7AB3B5;
+			&:before {
+				color: rgba(0,0,0,0.8);
+			}
 		}
 		.container__items:before {
 			@extend %icon;
@@ -256,6 +269,7 @@ article#projects {
 			font-size: 100px;
 			line-height: 200px;
 			display: block;
+			transition: all 0.2s ease;
 		}
 		.mic:before {
 			content: "\e609";

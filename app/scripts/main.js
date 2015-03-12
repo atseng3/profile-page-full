@@ -23,6 +23,7 @@ window.Profile = {
 		this.setListeners();
 	},
 	setListeners: function() {
+		console.log('this is the main js');
 		$('#nav-brand').on('click', $.proxy(this.showHomePage, this));
 		$('#nav-profile').on('click', $.proxy(this.showProfilePage, this));
 		$('#learn-more').on('click', $.proxy(this.showProfilePage, this));

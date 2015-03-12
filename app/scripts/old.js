@@ -19,7 +19,7 @@
 (function () {
   'use strict';
   var querySelector = document.querySelector.bind(document);
-
+  console.log('this is the old js');
   var navdrawerContainer = querySelector('.navdrawer-container');
   var body = document.body;
   var appbarElement = querySelector('.app-bar');
